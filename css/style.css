@@ -11,7 +11,7 @@
 	color: #FFF;
 	display: flex;
 	width: 100vw;
-	height: 60px;
+	height: 80px;
 	justify-content: right;
 	align-items: center;
 }
@@ -27,16 +27,8 @@
 	width: auto;
 }
 
-.title-capital {
-	color: #FFF;
-}
-
-.title-k {
-	color: #DDD;
-}
-
 .nav-items {
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 }
 
