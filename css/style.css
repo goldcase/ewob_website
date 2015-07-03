@@ -129,6 +129,55 @@ hr.style-two {
     background-image: linear-gradient(to right, rgba(60, 60, 60, 0), rgba(60, 60, 60, 0.75), rgba(60, 60, 60, 0));
 }
 
+.join-now {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding: 20px;
+	text-align: center;
+	color: #333;
+	background: #fafafa;
+}
+
+.join-header {
+	font-size: 30px;
+	font-weight: 600;
+	margin: 10px;
+}
+
+.join-body {
+	color: #444;
+}
+
+.join-buttons {
+
+}
+
+.join-button {
+	width: 200px;
+	height: 60px;
+	margin: 20px;
+	border-style: none;
+	border-radius: 6px;
+	color: rgba(255, 255, 255, 0.8);
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.india-button {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../assets/india.jpg);
+	background-size: cover;
+}
+
+.argentina-button {
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../assets/argentina.jpg);
+	background-size: cover;
+}
+
 .right-image {
 	max-width: 1000px;
 	margin: 0 auto;
