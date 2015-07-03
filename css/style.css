@@ -36,6 +36,7 @@ body {
 .nav-items {
 	font-size: 16px;
 	font-weight: bold;
+	padding-right: 30px;
 }
 
 .nav-items ul {
@@ -195,6 +196,7 @@ hr.style-two {
 	flex-direction: column;
 	max-height: 500px;
 	justify-content: center;
+	width: 80%;
 }
 
 .right-text {
@@ -220,9 +222,9 @@ hr.style-two {
 }
 
 .right-image-float {
-	float: right;
 	margin: 0;
 	padding-left: 20px;
+	float: left;
 }
 
 .left-image {
