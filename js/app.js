@@ -1,0 +1,1 @@
+var photosApp = angular.module('myModule', ['angular-flexslider']);

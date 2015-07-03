@@ -272,7 +272,6 @@ hr.style-two {
 }
 
 .photos {
-	height: 500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

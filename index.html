@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="BasicSlider">
 <head>
 	<title>Entrepreneurs Without Borders</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,900,700,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="components/flexslider/flexslider.css">
+	<style type="text/css">
+		.flexslider-container {
+			width: 50%;
+			margin: 10px auto;
+		}
+	</style>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body ng-controller="BasicSliderCtrl">
 <header>
 	<div class="nav-bar">
 		<div class="nav-title"><img src="assets/ewob_logo_white_trimmed.png" alt=""></div>
@@ -117,6 +124,11 @@
 		<div class="photos-header">
 		PHOTOS
 		</div>
+		<flex-slider slide="s in slides" animation="slide">
+			<li>
+				<img ng-src="{{s}}">
+			</li>
+		</flex-slider>
 	</div>
 </div>
 <!-- Begin call to action -->
@@ -138,6 +150,22 @@
 <footer>
 	
 </footer>
-
+	<script src="components/jquery/dist/jquery.js"></script>
+	<script src="components/flexslider/jquery.flexslider.js"></script>
+	<script src="components/angular/angular.js"></script>
+	<script src="components/angular-flexslider/angular-flexslider.js"></script>
+	<script type="text/javascript">
+	angular.module('BasicSlider', ['angular-flexslider'])
+		.controller('BasicSliderCtrl', function($scope) {
+			$scope.slides = [
+				'assets/slider_photos/aileen.JPG',
+				'assets/slider_photos/alyssa.jpg',
+				'assets/slider_photos/amanda.jpg',
+				'assets/slider_photos/andrew_s.jpg',
+				'assets/slider_photos/betty.jpg',
+				'assets/slider_photos/casey_image.jpg'
+			];
+		});
+	</script>
 </body>
 </html>
