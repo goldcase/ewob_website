@@ -4,6 +4,11 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
 .nav-bar {
 	background-color: rgba(0, 0, 0, 0.5);
 	position: fixed;
@@ -36,19 +41,17 @@
 .nav-items ul {
 	display: inline-flex;
 	list-style-type: none;
-	margin: 0;
 	float: right;
 }
 
 .nav-items li {
 	width: auto;
-	padding-right: 30px;
 	flex: auto;
-	margin: auto;
+	margin-right: 20px;
 }
 
-.nav-items li {
-	margin-right: 30px;
+.trips {
+	color: #e67e22;
 }
 
 .splash {
@@ -264,4 +267,10 @@ hr.style-two {
 	font-family: 'Droid Serif', serif;
 	line-height: 1.4;
 	font-size: 22px;
+}
+
+footer {
+	background: #2c3e50;
+	height: 175px;
+	display: flex;
 }
