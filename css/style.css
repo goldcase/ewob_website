@@ -1,0 +1,219 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.nav-bar {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0px;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	display: flex;
+	width: 100vw;
+	height: 80px;
+	justify-content: right;
+	align-items: center;
+}
+
+.nav-title {
+	margin-right: auto;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+.nav-title img {
+	height: 40px;
+	width: auto;
+}
+
+.nav-items {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.nav-items ul {
+	display: inline-flex;
+	list-style-type: none;
+	margin: 0;
+	float: right;
+}
+
+.nav-items li {
+	width: auto;
+	padding-right: 30px;
+	flex: auto;
+	margin: auto;
+}
+
+.nav-items li {
+	margin-right: 30px;
+}
+
+.splash {
+	height: 100vh;
+	width: 100vw;
+	background: url(../assets/dot_pattern.png) repeat, linear-gradient(rgba(0, 50, 50, 0.3), rgba(0, 0, 0, 0.6)), url(../assets/rocky_beach.jpg) repeat-x;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.splash-header {
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100px;
+	color: #FFF;
+	font-weight: 900;
+	max-width: 80vw;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1;
+}
+
+.splash-body {
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	color: #e1e1e1;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.splash-button {
+	margin-top: 20px;
+	padding: 15px;
+	width: 200px;
+	height: 50px;
+	background-color: #e67e22;
+	border-style: none;
+	color: #FFF;
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-size: 14px;
+	border-radius: 4px;
+	box-shadow: 0px 3px 0px 0px #B34B00;
+}
+
+.columns {
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.column-3 {
+	flex: 1;
+	padding: 40px;
+	text-align: center;
+}
+
+.column-header {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #333;
+	font-size: 25px;
+	padding: 10px;
+}
+
+.column-body {
+	font-family: 'Droid Serif', serif;
+	color: #666;
+	font-size: 15px;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(60, 60, 60, 0), rgba(60, 60, 60, 0.75), rgba(60, 60, 60, 0));
+}
+
+.join-now {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding: 20px;
+	text-align: center;
+	color: #333;
+	background: #fafafa;
+}
+
+.join-header {
+	font-size: 30px;
+	font-weight: 600;
+	margin: 10px;
+}
+
+.join-body {
+	color: #444;
+}
+
+.join-buttons {
+
+}
+
+.join-button {
+	width: 200px;
+	height: 60px;
+	margin: 20px;
+	border-style: none;
+	border-radius: 6px;
+	color: rgba(255, 255, 255, 0.8);
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.india-button {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../assets/india.jpg);
+	background-size: cover;
+}
+
+.argentina-button {
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../assets/argentina.jpg);
+	background-size: cover;
+}
+
+.right-image {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	max-height: 500px;
+}
+
+.right-text {
+	display: flex;
+	flex-direction: column;
+	max-height: 500px;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.right-header {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	color: #444;
+}
+
+.right-body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #777;
+	width: 80%;
+}
+
+.right-image-float {
+	float: right;
+	margin: 0;
+	padding-left: 20px;
+}
+
+.left-image {
+
+}
