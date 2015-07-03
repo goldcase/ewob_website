@@ -249,8 +249,8 @@ hr.style-two {
 }
 
 .testimonials-text {
-	max-width: 1000px;
-	margin: 0 auto;
+	width: 1000px;
+	margin: 30px auto;
 	color: #FFF;
 	display: flex;
 	flex-direction: column;
@@ -261,14 +261,38 @@ hr.style-two {
 .testimonials-header {
 	font-weight: 900;
 	font-size: 29px;
-	align-self: baseline;
 	margin-bottom: 20px;
+	width: 80%;
 }
 
 .testimonials-body {
 	font-family: 'Droid Serif', serif;
 	line-height: 1.4;
 	font-size: 22px;
+}
+
+.photos {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.photos-container {
+	width: 1000px;
+	margin: 30px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.photos-header {
+	font-weight: 900;
+	font-size: 29px;
+	margin-bottom: 20px;
+	width: 80%;
+	color: #2c3e50;
 }
 
 footer {
