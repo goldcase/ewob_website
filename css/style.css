@@ -9,6 +9,12 @@ body {
 	overflow-x: hidden;
 }
 
+a {
+	text-decoration: none;
+	font-weight: 800;
+	color: #FFF;
+}
+
 .nav-bar {
 	background-color: rgba(0, 0, 0, 0.5);
 	position: fixed;
@@ -119,7 +125,7 @@ body {
 	font-weight: 700;
 	color: #2c3e50;
 	font-size: 25px;
-	padding: 10px;
+	padding-bottom: 10px;
 }
 
 .column-body {
@@ -298,4 +304,17 @@ footer {
 	background: #2c3e50;
 	height: 175px;
 	display: flex;
+}
+
+.footer-text {
+	color: white;
+	margin: auto;
+}
+
+.my-name {
+	color: #35cf76;
+}
+
+.hearts {
+	color: #e74c3c;
 }
